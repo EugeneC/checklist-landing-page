@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { ArrowRight, Sparkles, Zap, WifiOff, EyeOff } from 'lucide-react';
+import { ArrowRight, Sparkles, WifiOff, EyeOff } from 'lucide-react';
 
 export default function CallToAction() {
   const [isVisible, setIsVisible] = useState(false);

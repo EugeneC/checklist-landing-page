@@ -1,4 +1,4 @@
-import { Sparkles, Twitter, Github, Linkedin, Mail } from 'lucide-react';
+import { Twitter, Mail } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
