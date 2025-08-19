@@ -61,7 +61,7 @@ export default function Hero() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
             
-            <button className="group flex items-center space-x-2 text-surface-600 hover:text-primary-500 font-medium text-lg transition-colors duration-300">
+            <button onClick={() => window.open("https://www.youtube.com/watch?v=SKcYsKKR2Us", "_blank")} className="group flex items-center space-x-2 text-surface-600 hover:text-primary-500 font-medium text-lg transition-colors duration-300">
               <div className="w-12 h-12 bg-white shadow-lg rounded-full flex items-center justify-center group-hover:shadow-xl transition-shadow duration-300">
                 <Play className="w-5 h-5 ml-1" />
               </div>
